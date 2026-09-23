@@ -19,9 +19,9 @@
   "implied_move": 0.0762,
   "atm_iv": 0.3713,
   "own_hist_abs": 0.0302,
-  "out0": null,
-  "hit": null,
-  "pnl": null,
+  "out0": 0.0104,
+  "hit": true,
+  "pnl": 0.0104,
   "history": [
    {
     "as_of": "2026-09-21",
@@ -36,7 +36,24 @@
    "expected": -0.0122,
    "already": -0.0699,
    "n_peers": 5
-  }
+  },
+  "ohlc": {
+   "prev_close": 35.45,
+   "open": 35.74,
+   "high": 36.0,
+   "low": 34.55,
+   "close": 35.82,
+   "gap": 0.0082,
+   "high_ret": 0.0155,
+   "low_ret": -0.0254,
+   "close_ret": 0.0104
+  },
+  "hit_touch": true,
+  "hit_target": false,
+  "mfe": 0.0155,
+  "mae": -0.0254,
+  "pnl_limit": 0.0104,
+  "scored_frozen": false
  },
  "CTAS|2026-09-23": {
   "target": "CTAS",
@@ -58,7 +75,7 @@
   "implied_move": 0.0469,
   "atm_iv": 0.6465,
   "own_hist_abs": 0.0252,
-  "out0": null,
+  "out0": -0.0249,
   "hit": null,
   "pnl": null,
   "history": [
@@ -75,7 +92,19 @@
    "expected": -0.0232,
    "already": -0.0224,
    "n_peers": 1
-  }
+  },
+  "ohlc": {
+   "prev_close": 196.88,
+   "open": 195.92,
+   "high": 198.75,
+   "low": 191.29,
+   "close": 191.97,
+   "gap": -0.0049,
+   "high_ret": 0.0095,
+   "low_ret": -0.0284,
+   "close_ret": -0.0249
+  },
+  "scored_frozen": false
  },
  "PAYX|2026-09-23": {
   "target": "PAYX",
@@ -97,7 +126,7 @@
   "implied_move": 0.0722,
   "atm_iv": 0.3532,
   "own_hist_abs": 0.0238,
-  "out0": null,
+  "out0": -0.0915,
   "hit": null,
   "pnl": null,
   "history": [
@@ -114,7 +143,19 @@
    "expected": -0.0126,
    "already": -0.0172,
    "n_peers": 2
-  }
+  },
+  "ohlc": {
+   "prev_close": 115.01,
+   "open": 109.37,
+   "high": 110.5,
+   "low": 103.25,
+   "close": 104.49,
+   "gap": -0.049,
+   "high_ret": -0.0392,
+   "low_ret": -0.1023,
+   "close_ret": -0.0915
+  },
+  "scored_frozen": false
  },
  "UEC|2026-09-24": {
   "target": "UEC",
@@ -153,8 +194,8 @@
   "announce_date": "2026-09-24",
   "session": "BMO",
   "reaction_day": "2026-09-24",
-  "as_of": "2026-09-21",
-  "frozen": false,
+  "as_of": "2026-09-23",
+  "frozen": true,
   "action": "PASS",
   "why": "spread within \u00b12%",
   "expected": -0.0304,
@@ -164,8 +205,8 @@
   "link_max": 0.815,
   "top_peer": "CAVA",
   "storyline": "Same-store sales and traffic beat, unit growth accelerates",
-  "implied_move": 0.0813,
-  "atm_iv": 0.3978,
+  "implied_move": 0.0737,
+  "atm_iv": 0.3714,
   "own_hist_abs": 0.0381,
   "out0": null,
   "hit": null,
@@ -173,6 +214,11 @@
   "history": [
    {
     "as_of": "2026-09-21",
+    "action": "PASS",
+    "spread": -0.0135
+   },
+   {
+    "as_of": "2026-09-23",
     "action": "PASS",
     "spread": -0.0135
    }
@@ -184,7 +230,8 @@
    "expected": -0.0304,
    "already": -0.0169,
    "n_peers": 3
-  }
+  },
+  "preview_locked": true
  },
  "SNX|2026-09-24": {
   "target": "SNX",
@@ -223,19 +270,19 @@
   "announce_date": "2026-09-29",
   "session": "BMO",
   "reaction_day": "2026-09-29",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
   "expected": 0.0965,
-  "already": -0.2434,
-  "spread": 0.3399,
+  "already": -0.2662,
+  "spread": 0.3628,
   "n_peers": 1,
   "link_max": 0.879,
   "top_peer": "ABNB",
   "storyline": "Stronger travel demand lifts bookings and platform monetization",
-  "implied_move": 0.0811,
-  "atm_iv": 0.6107,
+  "implied_move": 0.0775,
+  "atm_iv": 0.6514,
   "own_hist_abs": 0.0459,
   "out0": null,
   "hit": null,
@@ -245,6 +292,11 @@
     "as_of": "2026-09-21",
     "action": "PASS",
     "spread": 0.3399
+   },
+   {
+    "as_of": "2026-09-23",
+    "action": "PASS",
+    "spread": 0.3628
    }
   ]
  },
@@ -254,7 +306,7 @@
   "announce_date": "2026-09-30",
   "session": "BMO",
   "reaction_day": "2026-09-30",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "LONG",
   "why": "",
@@ -265,8 +317,8 @@
   "link_max": 0.85,
   "top_peer": "HRL",
   "storyline": "Weak consumer spending driving volume declines and full-year sales guidance trim",
-  "implied_move": 0.0639,
-  "atm_iv": 0.4796,
+  "implied_move": 0.0592,
+  "atm_iv": 0.4887,
   "own_hist_abs": 0.0229,
   "out0": null,
   "hit": null,
@@ -274,6 +326,11 @@
   "history": [
    {
     "as_of": "2026-09-21",
+    "action": "LONG",
+    "spread": 0.0336
+   },
+   {
+    "as_of": "2026-09-23",
     "action": "LONG",
     "spread": 0.0336
    }
@@ -285,19 +342,19 @@
   "announce_date": "2026-09-30",
   "session": "BMO",
   "reaction_day": "2026-09-30",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
-  "action": "LONG",
-  "why": "",
-  "expected": 0.0602,
-  "already": -0.0464,
-  "spread": 0.1066,
-  "n_peers": 3,
+  "action": "PASS",
+  "why": "2 peers, rule needs 3",
+  "expected": 0.0209,
+  "already": -0.0639,
+  "spread": 0.0848,
+  "n_peers": 2,
   "link_max": 0.811,
   "top_peer": "MTSI",
   "storyline": "Strong data center demand growth for RF semiconductors",
-  "implied_move": 0.1031,
-  "atm_iv": 0.7824,
+  "implied_move": 0.0994,
+  "atm_iv": 0.8079,
   "own_hist_abs": 0.0491,
   "out0": null,
   "hit": null,
@@ -307,6 +364,11 @@
     "as_of": "2026-09-21",
     "action": "LONG",
     "spread": 0.1066
+   },
+   {
+    "as_of": "2026-09-23",
+    "action": "PASS",
+    "spread": 0.0848
    }
   ]
  },
@@ -316,19 +378,19 @@
   "announce_date": "2026-09-30",
   "session": "AMC",
   "reaction_day": "2026-10-01",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "SHORT",
   "why": "",
-  "expected": 0.0396,
-  "already": 0.1638,
-  "spread": -0.1241,
+  "expected": 0.0296,
+  "already": 0.1836,
+  "spread": -0.154,
   "n_peers": 10,
   "link_max": 0.821,
   "top_peer": "NBIS",
   "storyline": "Explosive AI cloud demand growth drives massive revenue acceleration",
-  "implied_move": 0.1016,
-  "atm_iv": 0.77,
+  "implied_move": 0.099,
+  "atm_iv": 0.8396,
   "own_hist_abs": 0.0913,
   "out0": null,
   "hit": null,
@@ -338,6 +400,11 @@
     "as_of": "2026-09-21",
     "action": "SHORT",
     "spread": -0.1241
+   },
+   {
+    "as_of": "2026-09-23",
+    "action": "SHORT",
+    "spread": -0.154
    }
   ]
  },
@@ -347,19 +414,19 @@
   "announce_date": "2026-10-01",
   "session": "AMC",
   "reaction_day": "2026-10-02",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0584,
-  "already": -0.07,
-  "spread": 0.0116,
+  "expected": -0.0548,
+  "already": -0.0714,
+  "spread": 0.0166,
   "n_peers": 1,
   "link_max": 0.815,
   "top_peer": "LULU",
   "storyline": "Brand sentiment deterioration and traffic loss drive revenue decline and guidance cut",
-  "implied_move": 0.0878,
-  "atm_iv": 0.6661,
+  "implied_move": 0.0847,
+  "atm_iv": 0.7184,
   "own_hist_abs": 0.0659,
   "out0": null,
   "hit": null,
@@ -369,6 +436,11 @@
     "as_of": "2026-09-21",
     "action": "PASS",
     "spread": 0.0116
+   },
+   {
+    "as_of": "2026-09-23",
+    "action": "PASS",
+    "spread": 0.0166
    }
   ]
  },
@@ -378,7 +450,7 @@
   "announce_date": "2026-10-01",
   "session": "BMO",
   "reaction_day": "2026-10-01",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "LONG",
   "why": "",
@@ -389,8 +461,8 @@
   "link_max": 0.827,
   "top_peer": "BROS",
   "storyline": "Weak forward guidance disappoints despite Q2 earnings beat and strong comps",
-  "implied_move": 0.0828,
-  "atm_iv": 0.3935,
+  "implied_move": 0.082,
+  "atm_iv": 0.4102,
   "own_hist_abs": 0.0304,
   "out0": null,
   "hit": null,
@@ -398,6 +470,11 @@
   "history": [
    {
     "as_of": "2026-09-21",
+    "action": "LONG",
+    "spread": 0.0608
+   },
+   {
+    "as_of": "2026-09-23",
     "action": "LONG",
     "spread": 0.0608
    }
@@ -409,19 +486,19 @@
   "announce_date": "2026-10-01",
   "session": "BMO",
   "reaction_day": "2026-10-01",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "SHORT",
   "why": "",
-  "expected": 0.0062,
+  "expected": 0.0058,
   "already": 0.0588,
-  "spread": -0.0525,
+  "spread": -0.053,
   "n_peers": 10,
   "link_max": 0.868,
   "top_peer": "ORCL",
   "storyline": "AI cloud demand outpaces supply; cloud infrastructure revenue up 121%",
-  "implied_move": 0.0967,
-  "atm_iv": 0.7341,
+  "implied_move": 0.0924,
+  "atm_iv": 0.7836,
   "own_hist_abs": 0.0621,
   "out0": null,
   "hit": null,
@@ -431,6 +508,11 @@
     "as_of": "2026-09-21",
     "action": "SHORT",
     "spread": -0.0525
+   },
+   {
+    "as_of": "2026-09-23",
+    "action": "SHORT",
+    "spread": -0.053
    }
   ]
  },
@@ -440,7 +522,7 @@
   "announce_date": "2026-10-06",
   "session": "BMO",
   "reaction_day": "2026-10-06",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "PASS",
   "why": "2 peers, rule needs 3",
@@ -451,8 +533,8 @@
   "link_max": 0.826,
   "top_peer": "PFGC",
   "storyline": "Higher fuel costs pressuring food distributor margins",
-  "implied_move": 0.1055,
-  "atm_iv": 0.5156,
+  "implied_move": 0.1071,
+  "atm_iv": 0.548,
   "own_hist_abs": 0.0948,
   "out0": null,
   "hit": null,
@@ -460,6 +542,11 @@
   "history": [
    {
     "as_of": "2026-09-21",
+    "action": "PASS",
+    "spread": 0.0371
+   },
+   {
+    "as_of": "2026-09-23",
     "action": "PASS",
     "spread": 0.0371
    }
@@ -502,19 +589,19 @@
   "announce_date": "2026-10-08",
   "session": "AMC",
   "reaction_day": "2026-10-09",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "LONG",
   "why": "",
-  "expected": 0.0767,
-  "already": 0.0129,
-  "spread": 0.0638,
+  "expected": 0.075,
+  "already": -0.0206,
+  "spread": 0.0956,
   "n_peers": 10,
   "link_max": 0.882,
   "top_peer": "HIVE",
   "storyline": "Securing five-year $350M GPU AI cloud services contract with Nvidia",
-  "implied_move": 0.1628,
-  "atm_iv": 0.9505,
+  "implied_move": 0.1484,
+  "atm_iv": 0.9219,
   "own_hist_abs": 0.0805,
   "out0": null,
   "hit": null,
@@ -524,6 +611,11 @@
     "as_of": "2026-09-21",
     "action": "LONG",
     "spread": 0.0638
+   },
+   {
+    "as_of": "2026-09-23",
+    "action": "LONG",
+    "spread": 0.0956
    }
   ]
  },
@@ -533,7 +625,7 @@
   "announce_date": "2026-10-12",
   "session": "AMC",
   "reaction_day": "2026-10-13",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
@@ -544,8 +636,8 @@
   "link_max": 0.781,
   "top_peer": "PFGC",
   "storyline": "Higher fuel costs pressuring food distributor margins",
-  "implied_move": 0.0574,
-  "atm_iv": 0.2755,
+  "implied_move": 0.0538,
+  "atm_iv": 0.2744,
   "own_hist_abs": 0.0067,
   "out0": null,
   "hit": null,
@@ -553,6 +645,11 @@
   "history": [
    {
     "as_of": "2026-09-21",
+    "action": "PASS",
+    "spread": 0.027
+   },
+   {
+    "as_of": "2026-09-23",
     "action": "PASS",
     "spread": 0.027
    }
@@ -564,19 +661,19 @@
   "announce_date": "2026-10-13",
   "session": "BMO",
   "reaction_day": "2026-10-13",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "PASS",
-  "why": "2 peers, rule needs 3",
-  "expected": -0.0026,
-  "already": -0.0009,
-  "spread": -0.0017,
-  "n_peers": 2,
+  "why": "1 peer, rule needs 3",
+  "expected": -0.0003,
+  "already": -0.0325,
+  "spread": 0.0322,
+  "n_peers": 1,
   "link_max": 0.855,
   "top_peer": "LEN",
   "storyline": "Rising mortgage rates and affordability constraints reducing home demand",
-  "implied_move": 0.0549,
-  "atm_iv": 0.2674,
+  "implied_move": 0.0561,
+  "atm_iv": 0.2865,
   "own_hist_abs": 0.0224,
   "out0": null,
   "hit": null,
@@ -586,6 +683,11 @@
     "as_of": "2026-09-21",
     "action": "PASS",
     "spread": -0.0017
+   },
+   {
+    "as_of": "2026-09-23",
+    "action": "PASS",
+    "spread": 0.0322
    }
   ]
  },
@@ -595,7 +697,7 @@
   "announce_date": "2026-10-13",
   "session": "BMO",
   "reaction_day": "2026-10-13",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
@@ -606,8 +708,8 @@
   "link_max": 0.792,
   "top_peer": "CPB",
   "storyline": "Persistent sales declines, weak guidance, and inflation headwinds",
-  "implied_move": 0.0912,
-  "atm_iv": 0.4413,
+  "implied_move": 0.0879,
+  "atm_iv": 0.445,
   "own_hist_abs": 0.0178,
   "out0": null,
   "hit": null,
@@ -615,6 +717,11 @@
   "history": [
    {
     "as_of": "2026-09-21",
+    "action": "PASS",
+    "spread": 0.0961
+   },
+   {
+    "as_of": "2026-09-23",
     "action": "PASS",
     "spread": 0.0961
    }
@@ -626,19 +733,19 @@
   "announce_date": "2026-10-13",
   "session": "BMO",
   "reaction_day": "2026-10-13",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "PASS",
   "why": "spread within \u00b12%",
   "expected": 0.0107,
-  "already": 0.0044,
-  "spread": 0.0063,
-  "n_peers": 4,
+  "already": 0.0066,
+  "spread": 0.0041,
+  "n_peers": 3,
   "link_max": 0.813,
   "top_peer": "CASY",
   "storyline": "Same-store sales growth misses, fuel margins face peak pressure",
-  "implied_move": 0.0866,
-  "atm_iv": 0.4234,
+  "implied_move": 0.0641,
+  "atm_iv": 0.4272,
   "own_hist_abs": 0.0182,
   "out0": null,
   "hit": null,
@@ -648,6 +755,11 @@
     "as_of": "2026-09-21",
     "action": "PASS",
     "spread": 0.0063
+   },
+   {
+    "as_of": "2026-09-23",
+    "action": "PASS",
+    "spread": 0.0041
    }
   ]
  },
@@ -688,19 +800,19 @@
   "announce_date": "2026-10-14",
   "session": "BMO",
   "reaction_day": "2026-10-14",
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-23",
   "frozen": false,
   "action": "SHORT",
   "why": "",
-  "expected": -0.0013,
-  "already": 0.0234,
-  "spread": -0.0247,
-  "n_peers": 6,
-  "link_max": 0.81,
-  "top_peer": "TSEM",
-  "storyline": "Strong demand and record profitability with bullish forward guidance",
-  "implied_move": 0.0958,
-  "atm_iv": 0.4681,
+  "expected": -0.0071,
+  "already": 0.0178,
+  "spread": -0.0249,
+  "n_peers": 5,
+  "link_max": 0.802,
+  "top_peer": "Q",
+  "storyline": "Strong demand for semiconductors amid global supply needs",
+  "implied_move": 0.0948,
+  "atm_iv": 0.4852,
   "own_hist_abs": 0.0358,
   "out0": null,
   "hit": null,
@@ -710,6 +822,11 @@
     "as_of": "2026-09-21",
     "action": "SHORT",
     "spread": -0.0247
+   },
+   {
+    "as_of": "2026-09-23",
+    "action": "SHORT",
+    "spread": -0.0249
    }
   ]
  },
@@ -1051,6 +1168,37 @@
     "as_of": "2026-09-21",
     "action": "LONG",
     "spread": 0.024
+   }
+  ]
+ },
+ "FHN|2026-10-15": {
+  "target": "FHN",
+  "name": "first horizon",
+  "announce_date": "2026-10-15",
+  "session": "BMO",
+  "reaction_day": "2026-10-15",
+  "as_of": "2026-09-23",
+  "frozen": false,
+  "action": "PASS",
+  "why": "2 peers, rule needs 3",
+  "expected": 0.0014,
+  "already": -0.0357,
+  "spread": 0.0371,
+  "n_peers": 2,
+  "link_max": 0.812,
+  "top_peer": "LEN",
+  "storyline": "Rising mortgage rates and affordability constraints reducing home demand",
+  "implied_move": 0.0586,
+  "atm_iv": 0.2996,
+  "own_hist_abs": 0.0173,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-23",
+    "action": "PASS",
+    "spread": 0.0371
    }
   ]
  }
