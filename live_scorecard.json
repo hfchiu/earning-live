@@ -1,6 +1,6 @@
 {
  "as_of": "2026-09-24",
- "tracked": 34,
+ "tracked": 38,
  "frozen_calls": 1,
  "scored_trades": 0,
  "hits": 0,
@@ -12,6 +12,6 @@
  "mean_mfe_bp": null,
  "mean_mae_bp": null,
  "mean_pnl_bp": null,
- "passes_scored": 2,
+ "passes_scored": 4,
  "pass_up_rate": 0.0
 }
