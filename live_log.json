@@ -311,13 +311,13 @@
   "announce_date": "2026-09-29",
   "session": "BMO",
   "reaction_day": "2026-09-29",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": 0.1067,
-  "already": -0.2667,
-  "spread": 0.3734,
+  "expected": 0.0515,
+  "already": -0.2456,
+  "spread": 0.2971,
   "n_peers": 1,
   "link_max": 0.879,
   "top_peer": "ABNB",
@@ -343,6 +343,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.3734
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.2971
    }
   ]
  },
@@ -352,13 +357,13 @@
   "announce_date": "2026-09-30",
   "session": "BMO",
   "reaction_day": "2026-09-30",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "LONG",
   "why": "",
-  "expected": -0.0389,
-  "already": -0.0786,
-  "spread": 0.0397,
+  "expected": -0.0442,
+  "already": -0.1079,
+  "spread": 0.0637,
   "n_peers": 5,
   "link_max": 0.85,
   "top_peer": "HRL",
@@ -384,6 +389,11 @@
     "as_of": "2026-09-24",
     "action": "LONG",
     "spread": 0.0397
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "LONG",
+    "spread": 0.0637
    }
   ]
  },
@@ -393,13 +403,13 @@
   "announce_date": "2026-09-30",
   "session": "BMO",
   "reaction_day": "2026-09-30",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "LONG",
   "why": "",
-  "expected": 0.0677,
-  "already": -0.0401,
-  "spread": 0.1078,
+  "expected": 0.0693,
+  "already": -0.0039,
+  "spread": 0.0732,
   "n_peers": 3,
   "link_max": 0.811,
   "top_peer": "MTSI",
@@ -425,6 +435,11 @@
     "as_of": "2026-09-24",
     "action": "LONG",
     "spread": 0.1078
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "LONG",
+    "spread": 0.0732
    }
   ]
  },
@@ -434,13 +449,13 @@
   "announce_date": "2026-09-30",
   "session": "AMC",
   "reaction_day": "2026-10-01",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "SHORT",
   "why": "",
-  "expected": 0.0347,
-  "already": 0.1997,
-  "spread": -0.165,
+  "expected": 0.0453,
+  "already": 0.2013,
+  "spread": -0.156,
   "n_peers": 10,
   "link_max": 0.821,
   "top_peer": "NBIS",
@@ -466,6 +481,11 @@
     "as_of": "2026-09-24",
     "action": "SHORT",
     "spread": -0.165
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "SHORT",
+    "spread": -0.156
    }
   ]
  },
@@ -475,13 +495,13 @@
   "announce_date": "2026-10-01",
   "session": "AMC",
   "reaction_day": "2026-10-02",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.057,
-  "already": -0.073,
-  "spread": 0.016,
+  "expected": -0.0582,
+  "already": -0.0797,
+  "spread": 0.0215,
   "n_peers": 1,
   "link_max": 0.815,
   "top_peer": "LULU",
@@ -507,6 +527,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.016
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0215
    }
   ]
  },
@@ -516,13 +541,13 @@
   "announce_date": "2026-10-01",
   "session": "BMO",
   "reaction_day": "2026-10-01",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "LONG",
   "why": "",
-  "expected": -0.0227,
-  "already": -0.1108,
-  "spread": 0.0881,
+  "expected": -0.0275,
+  "already": -0.1041,
+  "spread": 0.0766,
   "n_peers": 5,
   "link_max": 0.827,
   "top_peer": "BROS",
@@ -548,6 +573,11 @@
     "as_of": "2026-09-24",
     "action": "LONG",
     "spread": 0.0881
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "LONG",
+    "spread": 0.0766
    }
   ]
  },
@@ -557,13 +587,13 @@
   "announce_date": "2026-10-01",
   "session": "BMO",
   "reaction_day": "2026-10-01",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
-  "action": "SHORT",
-  "why": "",
-  "expected": 0.0027,
-  "already": 0.0255,
-  "spread": -0.0227,
+  "action": "PASS",
+  "why": "spread within \u00b12%",
+  "expected": -0.0012,
+  "already": 0.0042,
+  "spread": -0.0055,
   "n_peers": 10,
   "link_max": 0.868,
   "top_peer": "ORCL",
@@ -589,6 +619,11 @@
     "as_of": "2026-09-24",
     "action": "SHORT",
     "spread": -0.0227
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": -0.0055
    }
   ]
  },
@@ -598,13 +633,13 @@
   "announce_date": "2026-10-06",
   "session": "BMO",
   "reaction_day": "2026-10-06",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "2 peers, rule needs 3",
-  "expected": -0.0686,
-  "already": -0.1198,
-  "spread": 0.0512,
+  "expected": -0.0716,
+  "already": -0.1857,
+  "spread": 0.1141,
   "n_peers": 2,
   "link_max": 0.826,
   "top_peer": "PFGC",
@@ -630,6 +665,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0512
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.1141
    }
   ]
  },
@@ -639,13 +679,13 @@
   "announce_date": "2026-10-06",
   "session": "AMC",
   "reaction_day": "2026-10-07",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "2 peers, rule needs 3",
-  "expected": -0.0077,
-  "already": -0.1412,
-  "spread": 0.1335,
+  "expected": -0.0071,
+  "already": -0.1617,
+  "spread": 0.1546,
   "n_peers": 2,
   "link_max": 0.828,
   "top_peer": "PFGC",
@@ -666,6 +706,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.1335
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.1546
    }
   ]
  },
@@ -675,13 +720,13 @@
   "announce_date": "2026-10-08",
   "session": "AMC",
   "reaction_day": "2026-10-09",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "LONG",
   "why": "",
-  "expected": 0.0766,
-  "already": -0.0268,
-  "spread": 0.1034,
+  "expected": 0.066,
+  "already": -0.0568,
+  "spread": 0.1227,
   "n_peers": 10,
   "link_max": 0.882,
   "top_peer": "HIVE",
@@ -707,6 +752,11 @@
     "as_of": "2026-09-24",
     "action": "LONG",
     "spread": 0.1034
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "LONG",
+    "spread": 0.1227
    }
   ]
  },
@@ -716,13 +766,13 @@
   "announce_date": "2026-10-12",
   "session": "AMC",
   "reaction_day": "2026-10-13",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0531,
-  "already": -0.1198,
-  "spread": 0.0667,
+  "expected": -0.0541,
+  "already": -0.1117,
+  "spread": 0.0577,
   "n_peers": 1,
   "link_max": 0.781,
   "top_peer": "PFGC",
@@ -748,6 +798,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0667
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0577
    }
   ]
  },
@@ -757,13 +812,13 @@
   "announce_date": "2026-10-13",
   "session": "BMO",
   "reaction_day": "2026-10-13",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "2 peers, rule needs 3",
-  "expected": -0.0042,
-  "already": -0.0393,
-  "spread": 0.0352,
+  "expected": 0.0001,
+  "already": -0.026,
+  "spread": 0.0261,
   "n_peers": 2,
   "link_max": 0.855,
   "top_peer": "LEN",
@@ -789,6 +844,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0352
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0261
    }
   ]
  },
@@ -798,13 +858,13 @@
   "announce_date": "2026-10-13",
   "session": "BMO",
   "reaction_day": "2026-10-13",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0599,
-  "already": -0.1601,
-  "spread": 0.1002,
+  "expected": -0.0611,
+  "already": -0.1615,
+  "spread": 0.1005,
   "n_peers": 1,
   "link_max": 0.792,
   "top_peer": "CPB",
@@ -830,6 +890,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.1002
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.1005
    }
   ]
  },
@@ -839,17 +904,17 @@
   "announce_date": "2026-10-13",
   "session": "BMO",
   "reaction_day": "2026-10-13",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
-  "action": "PASS",
-  "why": "spread within \u00b12%",
-  "expected": 0.0161,
-  "already": 0.0258,
-  "spread": -0.0097,
-  "n_peers": 4,
-  "link_max": 0.813,
-  "top_peer": "CASY",
-  "storyline": "Same-store sales growth misses, fuel margins face peak pressure",
+  "action": "LONG",
+  "why": "",
+  "expected": 0.0113,
+  "already": -0.0305,
+  "spread": 0.0417,
+  "n_peers": 5,
+  "link_max": 0.891,
+  "top_peer": "COST",
+  "storyline": "Comparable sales growth lagged despite tariff-assisted earnings beat",
   "implied_move": null,
   "atm_iv": null,
   "own_hist_abs": 0.0182,
@@ -871,6 +936,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": -0.0097
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "LONG",
+    "spread": 0.0417
    }
   ]
  },
@@ -911,13 +981,13 @@
   "announce_date": "2026-10-14",
   "session": "BMO",
   "reaction_day": "2026-10-14",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
-  "action": "PASS",
-  "why": "spread within \u00b12%",
-  "expected": -0.0084,
-  "already": 0.0108,
-  "spread": -0.0192,
+  "action": "SHORT",
+  "why": "",
+  "expected": 0.0075,
+  "already": 0.0427,
+  "spread": -0.0352,
   "n_peers": 6,
   "link_max": 0.81,
   "top_peer": "TSEM",
@@ -943,6 +1013,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": -0.0192
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "SHORT",
+    "spread": -0.0352
    }
   ]
  },
@@ -983,13 +1058,13 @@
   "announce_date": "2026-10-14",
   "session": "BMO",
   "reaction_day": "2026-10-14",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0075,
-  "already": -0.0523,
-  "spread": 0.0448,
+  "expected": -0.0079,
+  "already": -0.0314,
+  "spread": 0.0235,
   "n_peers": 1,
   "link_max": 0.782,
   "top_peer": "SE",
@@ -1010,6 +1085,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0448
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0235
    }
   ]
  },
@@ -1019,13 +1099,13 @@
   "announce_date": "2026-10-14",
   "session": "BMO",
   "reaction_day": "2026-10-14",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0124,
-  "already": -0.0437,
-  "spread": 0.0313,
+  "expected": -0.0095,
+  "already": -0.0815,
+  "spread": 0.072,
   "n_peers": 1,
   "link_max": 0.804,
   "top_peer": "RKT",
@@ -1046,6 +1126,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0313
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.072
    }
   ]
  },
@@ -1086,13 +1171,13 @@
   "announce_date": "2026-10-15",
   "session": "BMO",
   "reaction_day": "2026-10-15",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "SHORT",
   "why": "",
-  "expected": 0.0164,
-  "already": 0.0862,
-  "spread": -0.0698,
+  "expected": 0.0224,
+  "already": 0.085,
+  "spread": -0.0626,
   "n_peers": 9,
   "link_max": 0.851,
   "top_peer": "NBIS",
@@ -1113,6 +1198,11 @@
     "as_of": "2026-09-24",
     "action": "SHORT",
     "spread": -0.0698
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "SHORT",
+    "spread": -0.0626
    }
   ]
  },
@@ -1122,13 +1212,13 @@
   "announce_date": "2026-10-15",
   "session": "BMO",
   "reaction_day": "2026-10-15",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0115,
-  "already": -0.1245,
-  "spread": 0.113,
+  "expected": -0.0045,
+  "already": -0.1191,
+  "spread": 0.1145,
   "n_peers": 1,
   "link_max": 0.814,
   "top_peer": "PH",
@@ -1149,6 +1239,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.113
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.1145
    }
   ]
  },
@@ -1158,13 +1253,13 @@
   "announce_date": "2026-10-15",
   "session": "BMO",
   "reaction_day": "2026-10-15",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "2 peers, rule needs 3",
-  "expected": -0.0068,
-  "already": -0.0209,
-  "spread": 0.0141,
+  "expected": -0.0001,
+  "already": -0.0377,
+  "spread": 0.0376,
   "n_peers": 2,
   "link_max": 0.858,
   "top_peer": "LEN",
@@ -1185,6 +1280,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0141
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0376
    }
   ]
  },
@@ -1194,13 +1294,13 @@
   "announce_date": "2026-10-15",
   "session": "AMC",
   "reaction_day": "2026-10-16",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0146,
-  "already": -0.0405,
-  "spread": 0.0259,
+  "expected": -0.0113,
+  "already": -0.0634,
+  "spread": 0.0521,
   "n_peers": 1,
   "link_max": 0.794,
   "top_peer": "RKT",
@@ -1221,6 +1321,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0259
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0521
    }
   ]
  },
@@ -1230,13 +1335,13 @@
   "announce_date": "2026-10-15",
   "session": "BMO",
   "reaction_day": "2026-10-15",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0219,
-  "already": -0.1043,
-  "spread": 0.0823,
+  "expected": -0.0234,
+  "already": -0.1089,
+  "spread": 0.0855,
   "n_peers": 1,
   "link_max": 0.786,
   "top_peer": "BULL",
@@ -1257,6 +1362,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0823
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0855
    }
   ]
  },
@@ -1266,13 +1376,13 @@
   "announce_date": "2026-10-16",
   "session": "BMO",
   "reaction_day": "2026-10-16",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0126,
-  "already": -0.0871,
-  "spread": 0.0745,
+  "expected": -0.0097,
+  "already": -0.1149,
+  "spread": 0.1052,
   "n_peers": 1,
   "link_max": 0.79,
   "top_peer": "RKT",
@@ -1293,6 +1403,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0745
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.1052
    }
   ]
  },
@@ -1302,13 +1417,13 @@
   "announce_date": "2026-10-16",
   "session": "BMO",
   "reaction_day": "2026-10-16",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
-  "action": "PASS",
-  "why": "spread within \u00b12%",
-  "expected": -0.008,
-  "already": -0.0236,
-  "spread": 0.0156,
+  "action": "LONG",
+  "why": "",
+  "expected": -0.0028,
+  "already": -0.0547,
+  "spread": 0.0518,
   "n_peers": 3,
   "link_max": 0.827,
   "top_peer": "LEN",
@@ -1329,6 +1444,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0156
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "LONG",
+    "spread": 0.0518
    }
   ]
  },
@@ -1338,13 +1458,13 @@
   "announce_date": "2026-10-15",
   "session": "BMO",
   "reaction_day": "2026-10-15",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "LONG",
   "why": "",
-  "expected": -0.0035,
-  "already": -0.0349,
-  "spread": 0.0314,
+  "expected": 0.0009,
+  "already": -0.0612,
+  "spread": 0.0621,
   "n_peers": 3,
   "link_max": 0.812,
   "top_peer": "LEN",
@@ -1365,6 +1485,11 @@
     "as_of": "2026-09-24",
     "action": "LONG",
     "spread": 0.0314
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "LONG",
+    "spread": 0.0621
    }
   ]
  },
@@ -1374,13 +1499,13 @@
   "announce_date": "2026-09-29",
   "session": "BMO",
   "reaction_day": "2026-09-29",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0507,
-  "already": -0.0741,
-  "spread": 0.0234,
+  "expected": -0.0634,
+  "already": -0.0804,
+  "spread": 0.017,
   "n_peers": 1,
   "link_max": 0.788,
   "top_peer": "NI",
@@ -1396,6 +1521,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0234
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.017
    }
   ]
  },
@@ -1405,13 +1535,13 @@
   "announce_date": "2026-10-15",
   "session": "AMC",
   "reaction_day": "2026-10-16",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "1 peer, rule needs 3",
-  "expected": -0.0572,
-  "already": 0.0192,
-  "spread": -0.0764,
+  "expected": -0.061,
+  "already": -0.005,
+  "spread": -0.0559,
   "n_peers": 1,
   "link_max": 0.788,
   "top_peer": "BULL",
@@ -1427,6 +1557,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": -0.0764
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": -0.0559
    }
   ]
  },
@@ -1436,13 +1571,13 @@
   "announce_date": "2026-10-19",
   "session": "BMO",
   "reaction_day": "2026-10-19",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "2 peers, rule needs 3",
-  "expected": -0.0063,
-  "already": -0.0275,
-  "spread": 0.0212,
+  "expected": 0.0017,
+  "already": -0.0456,
+  "spread": 0.0473,
   "n_peers": 2,
   "link_max": 0.793,
   "top_peer": "LEN",
@@ -1458,6 +1593,11 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.0212
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0473
    }
   ]
  },
@@ -1467,13 +1607,13 @@
   "announce_date": "2026-10-19",
   "session": "AMC",
   "reaction_day": "2026-10-20",
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "frozen": false,
   "action": "PASS",
   "why": "2 peers, rule needs 3",
-  "expected": -0.0082,
+  "expected": 0.0005,
   "already": -0.0542,
-  "spread": 0.046,
+  "spread": 0.0547,
   "n_peers": 2,
   "link_max": 0.87,
   "top_peer": "LEN",
@@ -1489,6 +1629,383 @@
     "as_of": "2026-09-24",
     "action": "PASS",
     "spread": 0.046
+   },
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0547
+   }
+  ]
+ },
+ "OMC|2026-10-20": {
+  "target": "OMC",
+  "name": "omnicom",
+  "announce_date": "2026-10-20",
+  "session": "AMC",
+  "reaction_day": "2026-10-21",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "2 peers, rule needs 3",
+  "expected": -0.0038,
+  "already": -0.0741,
+  "spread": 0.0703,
+  "n_peers": 2,
+  "link_max": 0.803,
+  "top_peer": "SE",
+  "storyline": "E-commerce platform revenue growth and Shopee marketplace strength",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0371,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0703
+   }
+  ]
+ },
+ "WCN|2026-10-20": {
+  "target": "WCN",
+  "name": "waste connections",
+  "announce_date": "2026-10-20",
+  "session": "AMC",
+  "reaction_day": "2026-10-21",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "1 peer, rule needs 3",
+  "expected": 0.0004,
+  "already": -0.0742,
+  "spread": 0.0747,
+  "n_peers": 1,
+  "link_max": 0.781,
+  "top_peer": "BP",
+  "storyline": "Middle East geopolitical tensions drive higher oil prices and refining margins",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0153,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0747
+   }
+  ]
+ },
+ "ALLY|2026-10-20": {
+  "target": "ALLY",
+  "name": "ally financial",
+  "announce_date": "2026-10-20",
+  "session": "BMO",
+  "reaction_day": "2026-10-20",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "2 peers, rule needs 3",
+  "expected": -0.0014,
+  "already": -0.08,
+  "spread": 0.0786,
+  "n_peers": 2,
+  "link_max": 0.836,
+  "top_peer": "LEN",
+  "storyline": "Rising mortgage rates and affordability constraints reducing home demand",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0236,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0786
+   }
+  ]
+ },
+ "MMM|2026-10-20": {
+  "target": "MMM",
+  "name": "MMM",
+  "announce_date": "2026-10-20",
+  "session": "BMO",
+  "reaction_day": "2026-10-20",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "spread within \u00b12%",
+  "expected": -0.0378,
+  "already": -0.0577,
+  "spread": 0.0198,
+  "n_peers": 6,
+  "link_max": 0.826,
+  "top_peer": "TJX",
+  "storyline": "Consumer spending pullback amid retail sales softness",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0556,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0198
+   }
+  ]
+ },
+ "MSCI|2026-10-20": {
+  "target": "MSCI",
+  "name": "MSCI",
+  "announce_date": "2026-10-20",
+  "session": "BMO",
+  "reaction_day": "2026-10-20",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "1 peer, rule needs 3",
+  "expected": 0.0286,
+  "already": -0.0376,
+  "spread": 0.0662,
+  "n_peers": 1,
+  "link_max": 0.789,
+  "top_peer": "BR",
+  "storyline": "Investor communications segment strength drives quarterly profit growth",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0565,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0662
+   }
+  ]
+ },
+ "SYF|2026-10-20": {
+  "target": "SYF",
+  "name": "synchrony financial",
+  "announce_date": "2026-10-20",
+  "session": "BMO",
+  "reaction_day": "2026-10-20",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "LONG",
+  "why": "",
+  "expected": -0.0315,
+  "already": -0.0777,
+  "spread": 0.0461,
+  "n_peers": 5,
+  "link_max": 0.837,
+  "top_peer": "TJX",
+  "storyline": "Consumer spending pullback amid retail sales softness",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0229,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "LONG",
+    "spread": 0.0461
+   }
+  ]
+ },
+ "COF|2026-10-20": {
+  "target": "COF",
+  "name": "capital one financial",
+  "announce_date": "2026-10-20",
+  "session": "AMC",
+  "reaction_day": "2026-10-21",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "2 peers, rule needs 3",
+  "expected": -0.0128,
+  "already": -0.0615,
+  "spread": 0.0487,
+  "n_peers": 2,
+  "link_max": 0.878,
+  "top_peer": "RKT",
+  "storyline": "Mortgage origination and refinance volumes declining amid housing market weakness",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0302,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0487
+   }
+  ]
+ },
+ "GM|2026-10-20": {
+  "target": "GM",
+  "name": "general motors",
+  "announce_date": "2026-10-20",
+  "session": "BMO",
+  "reaction_day": "2026-10-20",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "1 peer, rule needs 3",
+  "expected": -0.0046,
+  "already": -0.0671,
+  "spread": 0.0626,
+  "n_peers": 1,
+  "link_max": 0.828,
+  "top_peer": "ALB",
+  "storyline": "Lithium pricing strength drives record EBITDA",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0843,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0626
+   }
+  ]
+ },
+ "NFLX|2026-10-20": {
+  "target": "NFLX",
+  "name": "netflix",
+  "announce_date": "2026-10-20",
+  "session": "AMC",
+  "reaction_day": "2026-10-21",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "2 peers, rule needs 3",
+  "expected": -0.0424,
+  "already": -0.1075,
+  "spread": 0.0651,
+  "n_peers": 2,
+  "link_max": 0.855,
+  "top_peer": "CHWY",
+  "storyline": "Weak discretionary consumer spending environment constraining pet category",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0848,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": 0.0651
+   }
+  ]
+ },
+ "GLXY|2026-10-20": {
+  "target": "GLXY",
+  "name": "galaxy digital",
+  "announce_date": "2026-10-20",
+  "session": "BMO",
+  "reaction_day": "2026-10-20",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "1 peer, rule needs 3",
+  "expected": 0.0669,
+  "already": 0.227,
+  "spread": -0.1601,
+  "n_peers": 1,
+  "link_max": 0.891,
+  "top_peer": "BTDR",
+  "storyline": "Record hash rate growth in mining operations offsets Q2 earnings miss",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": null,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": -0.1601
+   }
+  ]
+ },
+ "GPC|2026-10-20": {
+  "target": "GPC",
+  "name": "genuine parts",
+  "announce_date": "2026-10-20",
+  "session": "BMO",
+  "reaction_day": "2026-10-20",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "PASS",
+  "why": "1 peer, rule needs 3",
+  "expected": 0.0106,
+  "already": 0.025,
+  "spread": -0.0144,
+  "n_peers": 1,
+  "link_max": 0.789,
+  "top_peer": "AZO",
+  "storyline": "Tariff refunds and commercial segment growth offsetting retail headwinds",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0274,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "PASS",
+    "spread": -0.0144
+   }
+  ]
+ },
+ "KEY|2026-10-20": {
+  "target": "KEY",
+  "name": "keycorp new",
+  "announce_date": "2026-10-20",
+  "session": "BMO",
+  "reaction_day": "2026-10-20",
+  "as_of": "2026-09-25",
+  "frozen": false,
+  "action": "LONG",
+  "why": "",
+  "expected": -0.0035,
+  "already": -0.0968,
+  "spread": 0.0933,
+  "n_peers": 3,
+  "link_max": 0.795,
+  "top_peer": "GPN",
+  "storyline": "Middle East conflict reduces travel and payment spending",
+  "implied_move": null,
+  "atm_iv": null,
+  "own_hist_abs": 0.0197,
+  "out0": null,
+  "hit": null,
+  "pnl": null,
+  "history": [
+   {
+    "as_of": "2026-09-25",
+    "action": "LONG",
+    "spread": 0.0933
    }
   ]
  }
